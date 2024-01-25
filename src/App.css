@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
-}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Cormorant:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic);
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*{
+  font-family: 'Cormorant';
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+:root{
+  --back:"black";
+  --text:"#ffffff"
+}
+a{
+  text-decoration: none;
+}
+.p_com{
+  color: #ffffff
+}
+.cormorant{
+  font-family: Cormorant;
+  color: goldenrod;
+}
+.opensans{
+  font-family: Open Sans;
+}
+.simpleButton{
+  border-radius: 5px;
+  padding: 1rem;
   color: white;
+  background: goldenrod;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: open sans;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+html{
+  scroll-behavior: smooth;
 }

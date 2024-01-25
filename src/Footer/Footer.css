@@ -1,0 +1,111 @@
+.app__footer{
+    background: #000000;
+    padding: 4rem 2rem;
+}
+.newsLetter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:  1px solid goldenrod;
+}
+.newsLetter form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    /* border:  1px solid goldenrod; */
+    padding: 2rem;
+    margin: 2rem;
+}
+.newsLetter form input{
+    padding: 1rem 10rem 1rem 2rem;
+    border-radius: 0rem;
+    outline: none;
+    border: none;
+    border: 1px solid goldenrod;
+    background: transparent;
+    color: white;
+
+}
+.newsLetter form button{
+    /* padding: .5rem 2rem; */
+    border-radius: 0rem;
+    outline: none;
+    cursor: pointer;
+    border: none;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.footer__logo{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.workHours p ,.address p{
+    line-height: 2rem;
+}
+.footerSub{
+    line-height: 2rem;
+}
+.footer__links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 2rem;
+}
+
+
+
+
+@media screen and (max-width:2000px) {
+    
+}
+
+@media screen and (max-width:1150px) {
+    
+}
+
+@media screen and (max-width:850px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .newsLetter{
+        max-width: 300px;
+    }
+    .newsLetter form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 2rem;
+        /* border:  1px solid goldenrod; */
+        padding: 2rem;
+        margin: 2rem;
+    }
+    .newsLetter form input{
+        padding: 1rem 2rem;
+        
+    }
+}
+
+@media screen and (max-width:650px) {
+    
+}

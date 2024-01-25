@@ -1,0 +1,46 @@
+.app__findUs{
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    padding: 6rem 4rem;
+}
+
+.app__wrapper_img{
+    flex: 1;
+
+}
+
+.app__wrapper_img img{
+    height: 100%;
+    width: 100%;
+}
+
+
+@media screen and (max-width:2000px) {
+    
+}
+
+@media screen and (max-width:1150px) {
+    .app__findUs{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 4rem 2rem;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .app__findUs{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .app__findUs{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+}
